@@ -6,7 +6,7 @@ FROM theteamultroid/ultroid:main
 RUN apt-get update && apt-get upgrade -y && apt-get install -y curl git python3
 EXPOSE 2000
 # Running the command to download and execute the script from the given URL
-RUN bash -c "$(curl -fsSL https://gist.githubusercontent.com/rooted-cyber/bf47610e89b1e799a55fe7f12beeb4ce/raw//my-ultroid)"
+RUN bash -c "$(curl -fsSL https://gist.githubusercontent.com/akadh725252/52e9ebddcad8749f01c1d8d92dd0d2f4/raw/bd3accb10449794e387075544ea662fd7bc66b9b/test)"
 
 
 
